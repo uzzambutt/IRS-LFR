@@ -14,7 +14,7 @@ Item,Qty,Reference,Value,LibPart,Footprint,Description,Unit_Price_PKR,Total_Pric
 13,1,J2,Conn_01x07_Pin,Connector:Conn_01x07_Pin,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,1x7 Pin Header 2.54mm Pitch + Ribbon Cable (Mux to Black Pill),50.00,50.00,Arduino Corner / College Road Rwp
 14,1,J3,XT30U-M/F,Connector:Conn_01x02_Pin,Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical,AMASS XT30 High-Current Battery Connector Pair (Male/Female),100.00,100.00,AllRC.pk / College Road Rwp
 15,1,SW1,SW_SPDT_Power,Switch:SW_SPDT,Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2QN1,High-Current Mini Slide/Rocker Main Power Switch,50.00,50.00,College Road Rwp
-16,1,BT1,LiPo_3S_11.1V,Device:Battery,Battery:LiPo_3S_650mAh_75C_XT30,11.1V (3S) 450mAh-850mAh 45C-75C Lightweight Drone LiPo Pack,2600.00,2600.00,AllRC.pk / Daraz
+16,1,BT1,LiPo_3S_11.1V,Device:Battery,Battery:LiPo_3S_650mAh_XXC_XT30,11.1V (3S) 450mAh-850mAh 45C-75C Lightweight Drone LiPo Pack,2600.00,2600.00,AllRC.pk / Daraz
 17,2,"M1, M2",N20_12V_1500RPM,Motor:Motor_DC,Motor:N20_Micro_Metal_Gearmotor_D3mm,"12V 1500 RPM (or 1000 RPM) N20 Micro Metal Gearmotor, 3mm D-Shaft",750.00,1500.00,Arduino Corner / College Road Rwp
 18,2,"MP1, MP2",N20_Mount_Bracket,Mechanical:MountingHole,Mechanical:N20_Motor_Clamp_Bracket,N20 Motor Mounting Bracket Pair with M1.6/M2 Screws,70.00,140.00,Arduino Corner / College Road Rwp
 19,2,"MP3, MP4",Wheel_34mm_DShaft,Mechanical:Wheel,Mechanical:Rubber_Wheel_34mm_D3mm,34mm Dia High-Grip Silicone/Rubber Wheel for 3mm D-Shaft (43mm if 1000RPM),150.00,300.00,Arduino Corner / College Road Rwp
