@@ -1,21 +1,24 @@
-Item,Subsystem,Designator,Component_Name,Specification_Package,Quantity,Unit_Price_PKR,Total_Price_PKR,Sourcing_Notes
-1,Sensors,U1-U16,TCRT5000,"Reflective IR optical sensor (4-pin DIP)",16,15.00,240.00,"Hall Road / Daraz / Digilog.pk"
-2,Sensors,"R1, R3, R5, R7, R9, R11, R13, R15, R17, R19, R21, R23, R25, R27, R29, R31",220 Ohm SMD Resistor,"0805 or 1206 package, 1/8W, 1% (IR LED current limiter)",16,0.65,10.40,"Digilog.pk / ElectronicStore.pk"
-3,Sensors,"R2, R4, R6, R8, R10, R12, R14, R16, R18, R20, R22, R24, R26, R28, R30, R32",10 kOhm SMD Resistor,"0805 or 1206 package, 1/8W, 1% (Phototransistor pull-down)",16,0.65,10.40,"Digilog.pk / ElectronicStore.pk"
-4,Sensors,U17,CD74HC4067 Breakout Board,"16-channel analog/digital CMOS multiplexer module",1,350.00,350.00,"Multan Electronics / ElectronicStore.pk / Daraz"
-5,Sensors,"C1, C2",Sensor Rail Decoupling Capacitors,"1x 10 uF + 1x 100 nF ceramic/tantalum (16V+, across 3V3/GND)",2,15.00,30.00,"Local electronics market / Digilog.pk"
-6,Sensors,"J1, J2",Pin Headers & Ribbon Cable,"2.54mm male/female headers + 18-wire & 7-wire ribbon harness",1,120.00,120.00,"Arduino Corner / College Road Rawalpindi"
-7,Electronics,MCU1,STM32F411CEU6 Black Pill,"100 MHz ARM Cortex-M4F, 512 KB Flash, 128 KB RAM, USB-C",1,1150.00,1150.00,"Digilog.pk / ElectronicStore.pk"
-8,Electronics,DBG1,ST-Link V2 Programmer,"USB SWD flasher/debugger (omit if already owned)",1,550.00,550.00,"Arduino Corner / Digilog.pk"
-9,Electronics,DRV1,TB6612FNG Motor Driver,"Dual MOSFET H-bridge module (1.2A continuous / 3.2A peak per ch)",1,560.00,560.00,"Arduino Corner / College Road Rawalpindi"
-10,Electronics,REG1,MP1584EN Buck Converter,"3A adjustable DC-DC step-down module (pre-set output to 3.30V)",1,160.00,160.00,"Arduino Corner / College Road Rawalpindi"
-11,Electronics,"C3, C4, C5",Motor Bus Filter Capacitors,"1x 470 uF 25V low-ESR electrolytic + 2x 100 nF 50V ceramic (VM/GND)",1,80.00,80.00,"Local electronics market"
-12,Electronics,BAT1,3S 11.1V LiPo Battery,"450mAh-850mAh, 45C-75C lightweight drone pack, XT30 plug",1,2600.00,2600.00,"AllRC.pk / Daraz"
-13,Electronics,"SW1, J3",Power Switch & XT30 Pair,"Mini high-current slide/rocker switch + XT30 male/female connectors",1,150.00,150.00,"AllRC.pk / College Road Rawalpindi"
-14,Electronics,"R33, R34",Battery Sense Voltage Divider,"1x 10 kOhm + 1x 3.3 kOhm 1% resistors (for PA2 voltage feed-forward)",1,10.00,10.00,"Local electronics market"
-15,Mechanical,"M1, M2",N20 Metal Gearmotor,"12V 1500 RPM (or 1000 RPM), 3mm D-shaft micro metal gearmotor",2,750.00,1500.00,"Arduino Corner / College Road Rawalpindi / Daraz"
-16,Mechanical,"BRK1, BRK2",N20 Motor Mount Brackets,"Reinforced nylon or aluminum N20 clamps + M1.6/M2 mounting screws",2,70.00,140.00,"Arduino Corner / College Road Rawalpindi"
-17,Mechanical,"W1, W2",High-Grip Rubber Wheels,"34mm dia (for 1500 RPM) or 43mm dia (for 1000 RPM), 3mm D-hub",2,150.00,300.00,"Arduino Corner / College Road Rawalpindi"
-18,Mechanical,CST1,Low-Friction Front Skid,"PTFE dome glide button or mini steel ball caster (height-matched)",1,150.00,150.00,"Local hardware / Arduino Corner"
-19,Mechanical,CHS1,Chassis & Sensor Boom,"Custom FR4 PCB carrier or 3D-printed PLA/CF frame (100-120mm boom)",1,600.00,600.00,"Custom PCB fab / local 3D printing"
-20,Mechanical,MISC1,Wiring & Fasteners,"22 AWG silicone power wire, 26 AWG signal wire, M2/M3 nylon standoffs",1,250.00,250.00,"College Road Rawalpindi / Digilog.pk"
+Item,Qty,Reference,Value,LibPart,Footprint,Description,Unit_Price_PKR,Total_Price_PKR,Supplier
+1,16,"U1, U2, U3, U4, U5, U6, U7, U8, U9, U10, U11, U12, U13, U14, U15, U16",TCRT5000,Sensor_Proximity:TCRT5000,OptoDevice:Vishay_TCRT5000,"Reflective Optical Sensor with Transistor Output, DIP-4",15.00,240.00,Hall Road / Daraz / Digilog.pk
+2,16,"R1, R3, R5, R7, R9, R11, R13, R15, R17, R19, R21, R23, R25, R27, R29, R31",220R,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,"220 Ohm, 0.25W, 1% Carbon/Metal Film Axial Resistor (IR LED Limiter)",2.00,32.00,Arduino Corner / College Road Rwp
+3,17,"R2, R4, R6, R8, R10, R12, R14, R16, R18, R20, R22, R24, R26, R28, R30, R32, R33",10k,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,"10 kOhm, 0.25W, 1% Axial Resistor (16x Sensor Pull-Down + 1x Vbat Divider)",2.00,34.00,Arduino Corner / College Road Rwp
+4,1,R34,3.3k,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,"3.3 kOhm, 0.25W, 1% Axial Resistor (Vbat Divider Bottom for PA2)",2.00,2.00,Arduino Corner / College Road Rwp
+5,1,U17,CD74HC4067_Breakout,Analog_Switch:CD74HC4067M,Module:CD74HC4067_16Ch_Mux_Breakout_2.54mm,16-Channel Analog/Digital CMOS Multiplexer Breakout Board,350.00,350.00,Multan Electronics / ElectronicStore.pk
+6,1,C1,10uF 25V,Device:C_Polarized,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,"10 uF, 25V Polarized Radial Electrolytic Capacitor (3.3V Rail Decoupling)",15.00,15.00,Arduino Corner / College Road Rwp
+7,3,"C2, C4, C5",100nF 50V,Device:C,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,"100 nF, 50V Unpolarized Ceramic Disc Capacitor (Logic & VM High-Freq Bypass)",10.00,30.00,Arduino Corner / College Road Rwp
+8,1,C3,470uF 25V,Device:C_Polarized,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,"470 uF, 25V Low-ESR Radial Electrolytic Capacitor (VM Bulk Filter)",60.00,60.00,College Road Rwp / Hall Road
+9,1,U18,STM32F411CEU6_BlackPill,MCU_ST_STM32F4:STM32F411CEUx,Module:WeAct_BlackPill_STM32F411CEU6,"STM32F411CEU6 ARM Cortex-M4F 100MHz Dev Board, 512KB Flash, USB-C",1150.00,1150.00,Digilog.pk / ElectronicStore.pk
+10,1,U19,TB6612FNG_Module,Driver_Motor:TB6612FNG,Module:TB6612FNG_Dual_Motor_Driver_Breakout,Dual MOSFET H-Bridge Motor Driver Module (1.2A Cont / 3.2A Peak per Ch),560.00,560.00,Arduino Corner / College Road Rwp
+11,1,PS1,MP1584EN_Buck,Regulator_Switching:MP1584EN,Module:MP1584EN_DC_DC_Buck_Module,3A Adjustable Step-Down Buck Converter Module (Pre-Set to 3.30V Output),160.00,160.00,Arduino Corner / College Road Rwp
+12,1,J1,Conn_01x18_Pin,Connector:Conn_01x18_Pin,Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical,1x18 Pin Header 2.54mm Pitch + Ribbon Cable (Sensor Array to Mux),70.00,70.00,Arduino Corner / College Road Rwp
+13,1,J2,Conn_01x07_Pin,Connector:Conn_01x07_Pin,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,1x7 Pin Header 2.54mm Pitch + Ribbon Cable (Mux to Black Pill),50.00,50.00,Arduino Corner / College Road Rwp
+14,1,J3,XT30U-M/F,Connector:Conn_01x02_Pin,Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical,AMASS XT30 High-Current Battery Connector Pair (Male/Female),100.00,100.00,AllRC.pk / College Road Rwp
+15,1,SW1,SW_SPDT_Power,Switch:SW_SPDT,Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2QN1,High-Current Mini Slide/Rocker Main Power Switch,50.00,50.00,College Road Rwp
+16,1,BT1,LiPo_3S_11.1V,Device:Battery,Battery:LiPo_3S_650mAh_75C_XT30,11.1V (3S) 450mAh-850mAh 45C-75C Lightweight Drone LiPo Pack,2600.00,2600.00,AllRC.pk / Daraz
+17,2,"M1, M2",N20_12V_1500RPM,Motor:Motor_DC,Motor:N20_Micro_Metal_Gearmotor_D3mm,"12V 1500 RPM (or 1000 RPM) N20 Micro Metal Gearmotor, 3mm D-Shaft",750.00,1500.00,Arduino Corner / College Road Rwp
+18,2,"MP1, MP2",N20_Mount_Bracket,Mechanical:MountingHole,Mechanical:N20_Motor_Clamp_Bracket,N20 Motor Mounting Bracket Pair with M1.6/M2 Screws,70.00,140.00,Arduino Corner / College Road Rwp
+19,2,"MP3, MP4",Wheel_34mm_DShaft,Mechanical:Wheel,Mechanical:Rubber_Wheel_34mm_D3mm,34mm Dia High-Grip Silicone/Rubber Wheel for 3mm D-Shaft (43mm if 1000RPM),150.00,300.00,Arduino Corner / College Road Rwp
+20,1,MP5,PTFE_Skid_Caster,Mechanical:Caster,Mechanical:PTFE_Dome_Glide_Skid,Low-Friction Front PTFE Skid Glide or Mini Steel Ball Caster,150.00,150.00,Local Hardware / Arduino Corner
+21,1,PCB1,Chassis_SensorBoom,Mechanical:PCB_Frame,Mechanical:Custom_FR4_Chassis_110mm_Boom,Custom FR4 PCB Chassis or 3D-Printed Frame with 100-120mm Front Boom,600.00,600.00,PCB Fab / Local 3D Print
+22,1,HW1,Wire_Standoff_Kit,Mechanical:Hardware_Kit,Mechanical:M2_M3_Nylon_Standoff_SiliconeWire,"22 AWG Silicone Power Wire, 26 AWG Signal Wire, M2/M3 Nylon Standoffs",250.00,250.00,College Road Rwp / Digilog.pk
+23,1,DBG1,ST-Link_V2,Tool:ST-Link_V2,Tool:ST-Link_V2_USB_Dongle,USB SWD Programmer/Debugger for STM32 (External Tool - Omit if Owned),550.00,550.00,Arduino Corner / Digilog.pk
