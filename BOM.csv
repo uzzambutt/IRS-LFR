@@ -20,4 +20,4 @@ Item,Qty,Reference,Value,LibPart,Footprint,Description,Unit_Price_PKR,Total_Pric
 19,2,"MP3, MP4",Wheel_34mm_DShaft,Mechanical:Wheel,Mechanical:Rubber_Wheel_34mm_D3mm,34mm Dia High-Grip Silicone/Rubber Wheel for 3mm D-Shaft (43mm if 1000RPM),150.00,300.00,Arduino Corner / College Road Rwp
 20,1,MP5,PTFE_Skid_Caster,Mechanical:Caster,Mechanical:PTFE_Dome_Glide_Skid,Low-Friction Front PTFE Skid Glide or Mini Steel Ball Caster,150.00,150.00,Local Hardware / Arduino Corner
 22,1,HW1,Wire_Standoff_Kit,Mechanical:Hardware_Kit,Mechanical:M2_M3_Nylon_Standoff_SiliconeWire,"22 AWG Silicone Power Wire, 26 AWG Signal Wire, M2/M3 Nylon Standoffs",250.00,250.00,Rawat Bzr
-23,2,D1,TVS DIODE 15.3VWM 25.2VC DO204AC,TVS DIODE 15.3VWM 25.2VC DO204AC,,-,TH-T,TVS Diode,30.00,60.00,https://pk.components-store.com/product/Hamlin-Littelfuse/P6KE18CA.html
+23,2,D1,TVS DIODE 15.3VWM 25.2VC DO204AC,TVS DIODE 15.3VWM 25.2VC DO204AC,-,TH-T,TVS Diode,30.00,60.00,https://pk.components-store.com/product/Hamlin-Littelfuse/P6KE18CA.html
