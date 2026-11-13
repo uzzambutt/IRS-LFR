@@ -1,5 +1,5 @@
 Item,Qty,Reference,Value,LibPart,Footprint,Description,Unit_Price_PKR,Total_Price_PKR,Supplier
-1,16,"U1, U2, U3, U4, U5, U6, U7, U8, U9, U10, U11, U12, U13, U14, U15, U16",TCRT5000,Sensor_Proximity:TCRT5000,OptoDevice:Vishay_TCRT5000,"Reflective Optical Sensor with Transistor Output, DIP-4",15.00,240.00,Hall Road / Daraz / Digilog.pk
+1,17,"U1, U2, U3, U4, U5, U6, U7, U8, U9, U10, U11, U12, U13, U14, U15, U16, ExU17",TCRT5000,Sensor_Proximity:TCRT5000,OptoDevice:Vishay_TCRT5000,"Reflective Optical Sensor with Transistor Output, DIP-4",67.00,1139.00,https://www.daraz.pk/products/3pcs-tcrt5000-reflective-ir-tx-rx-optical-sensor-transmitter-i1849106.html
 2,16,"R1, R3, R5, R7, R9, R11, R13, R15, R17, R19, R21, R23, R25, R27, R29, R31",220R,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,"220 Ohm, 0.25W, 1% Carbon/Metal Film Axial Resistor (IR LED Limiter)",2.00,32.00,Arduino Corner / College Road Rwp
 3,17,"R2, R4, R6, R8, R10, R12, R14, R16, R18, R20, R22, R24, R26, R28, R30, R32, R33",10k,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,"10 kOhm, 0.25W, 1% Axial Resistor (16x Sensor Pull-Down + 1x Vbat Divider)",2.00,34.00,Arduino Corner / College Road Rwp
 4,1,R34,3.3k,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,"3.3 kOhm, 0.25W, 1% Axial Resistor (Vbat Divider Bottom for PA2)",2.00,2.00,Arduino Corner / College Road Rwp
@@ -7,7 +7,7 @@ Item,Qty,Reference,Value,LibPart,Footprint,Description,Unit_Price_PKR,Total_Pric
 6,1,C1,10uF 25V,Device:C_Polarized,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,"10 uF, 25V Polarized Radial Electrolytic Capacitor (3.3V Rail Decoupling)",15.00,15.00,Arduino Corner / College Road Rwp
 7,3,"C2, C4, C5",100nF 50V,Device:C,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,"100 nF, 50V Unpolarized Ceramic Disc Capacitor (Logic & VM High-Freq Bypass)",10.00,30.00,Arduino Corner / College Road Rwp
 8,1,C3,470uF 25V,Device:C_Polarized,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,"470 uF, 25V Low-ESR Radial Electrolytic Capacitor (VM Bulk Filter)",60.00,60.00,College Road Rwp / Hall Road
-9,1,U18,STM32F411CEU6_BlackPill,MCU_ST_STM32F4:STM32F411CEUx,Module:WeAct_BlackPill_STM32F411CEU6,"STM32F411CEU6 ARM Cortex-M4F 100MHz Dev Board, 512KB Flash, USB-C",1150.00,1150.00,Digilog.pk / ElectronicStore.pk
+9,1,U18,STM32F411CEU6_BlackPill,MCU_ST_STM32F4:STM32F411CEUx,Module:WeAct_BlackPill_STM32F411CEU6,"STM32F411CEU6 ARM Cortex-M4F 100MHz Dev Board, 512KB Flash, USB-C",2000.00,2000.00,Digilog.pk / ElectronicStore.pk
 10,1,U19,TB6612FNG_Module,Driver_Motor:TB6612FNG,Module:TB6612FNG_Dual_Motor_Driver_Breakout,Dual MOSFET H-Bridge Motor Driver Module (1.2A Cont / 3.2A Peak per Ch),560.00,560.00,Arduino Corner / College Road Rwp
 11,1,PS1,MP1584EN_Buck,Regulator_Switching:MP1584EN,Module:MP1584EN_DC_DC_Buck_Module,3A Adjustable Step-Down Buck Converter Module (Pre-Set to 3.30V Output),160.00,160.00,Arduino Corner / College Road Rwp
 12,1,J1,Conn_01x18_Pin,Connector:Conn_01x18_Pin,Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical,1x18 Pin Header 2.54mm Pitch + Ribbon Cable (Sensor Array to Mux),70.00,70.00,Arduino Corner / College Road Rwp
@@ -19,6 +19,4 @@ Item,Qty,Reference,Value,LibPart,Footprint,Description,Unit_Price_PKR,Total_Pric
 18,2,"MP1, MP2",N20_Mount_Bracket,Mechanical:MountingHole,Mechanical:N20_Motor_Clamp_Bracket,N20 Motor Mounting Bracket Pair with M1.6/M2 Screws,70.00,140.00,Arduino Corner / College Road Rwp
 19,2,"MP3, MP4",Wheel_34mm_DShaft,Mechanical:Wheel,Mechanical:Rubber_Wheel_34mm_D3mm,34mm Dia High-Grip Silicone/Rubber Wheel for 3mm D-Shaft (43mm if 1000RPM),150.00,300.00,Arduino Corner / College Road Rwp
 20,1,MP5,PTFE_Skid_Caster,Mechanical:Caster,Mechanical:PTFE_Dome_Glide_Skid,Low-Friction Front PTFE Skid Glide or Mini Steel Ball Caster,150.00,150.00,Local Hardware / Arduino Corner
-21,1,PCB1,Chassis_SensorBoom,Mechanical:PCB_Frame,Mechanical:Custom_FR4_Chassis_110mm_Boom,Custom FR4 PCB Chassis or 3D-Printed Frame with 100-120mm Front Boom,600.00,600.00,PCB Fab / Local 3D Print
-22,1,HW1,Wire_Standoff_Kit,Mechanical:Hardware_Kit,Mechanical:M2_M3_Nylon_Standoff_SiliconeWire,"22 AWG Silicone Power Wire, 26 AWG Signal Wire, M2/M3 Nylon Standoffs",250.00,250.00,College Road Rwp / Digilog.pk
-23,1,DBG1,ST-Link_V2,Tool:ST-Link_V2,Tool:ST-Link_V2_USB_Dongle,USB SWD Programmer/Debugger for STM32 (External Tool - Omit if Owned),550.00,550.00,Arduino Corner / Digilog.pk
+22,1,HW1,Wire_Standoff_Kit,Mechanical:Hardware_Kit,Mechanical:M2_M3_Nylon_Standoff_SiliconeWire,"22 AWG Silicone Power Wire, 26 AWG Signal Wire, M2/M3 Nylon Standoffs",250.00,250.00,Rawat Bzr
