@@ -8,7 +8,7 @@ Item,Qty,Reference,Value,LibPart,Footprint,Description,Unit_Price_PKR,Total_Pric
 7,3,"C2, C4, C5",100nF 50V,Device:C,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,"100 nF, 50V Unpolarized Ceramic Disc Capacitor (Logic & VM High-Freq Bypass)",10.00,30.00,Arduino Corner / College Road Rwp
 8,1,C3,470uF 25V,Device:C_Polarized,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,"470 uF, 25V Low-ESR Radial Electrolytic Capacitor (VM Bulk Filter)",60.00,60.00,College Road Rwp / Hall Road
 9,1,U18,STM32F411CEU6_BlackPill,MCU_ST_STM32F4:STM32F411CEUx,Module:WeAct_BlackPill_STM32F411CEU6,"STM32F411CEU6 ARM Cortex-M4F 100MHz Dev Board, 512KB Flash, USB-C",2000.00,2000.00,Digilog.pk / ElectronicStore.pk
-10,1,U19,TB6612FNG_Module,Driver_Motor:TB6612FNG,Module:TB6612FNG_Dual_Motor_Driver_Breakout,Dual MOSFET H-Bridge Motor Driver Module (1.2A Cont / 3.2A Peak per Ch),560.00,560.00,Arduino Corner / College Road Rwp
+10,2,U19,TB6612FNG_Module,Driver_Motor:TB6612FNG,Module:TB6612FNG_Dual_Motor_Driver_Breakout,Dual MOSFET H-Bridge Motor Driver Module (1.2A Cont / 3.2A Peak per Ch),560.00,1120.00,Arduino Corner / College Road Rwp
 11,1,PS1,MP1584EN_Buck,Regulator_Switching:MP1584EN,Module:MP1584EN_DC_DC_Buck_Module,3A Adjustable Step-Down Buck Converter Module (Pre-Set to 3.30V Output),160.00,160.00,Arduino Corner / College Road Rwp
 12,1,J1,Conn_01x18_Pin,Connector:Conn_01x18_Pin,Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical,1x18 Pin Header 2.54mm Pitch + Ribbon Cable (Sensor Array to Mux),70.00,70.00,Arduino Corner / College Road Rwp
 13,1,J2,Conn_01x07_Pin,Connector:Conn_01x07_Pin,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,1x7 Pin Header 2.54mm Pitch + Ribbon Cable (Mux to Black Pill),50.00,50.00,Arduino Corner / College Road Rwp
